@@ -14,7 +14,7 @@ gradle
 
 ```groovy
 dependencies {
-    compile 'com.github.lzyzsd.randomcolor:1.0.0'
+    compile 'com.github.lzyzsd.randomcolor:library:1.0.0'
 }
 ```
 
