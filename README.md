@@ -1,7 +1,7 @@
 # Android Random Color
 
 Inspired by David Merfield's [randomColor.js](https://github.com/davidmerfield/randomColor).
-And onevcat's [RandomColorSwift](https://raw.githubusercontent.com/onevcat/RandomColorSwift)
+And onevcat's [RandomColorSwift](https://github.com/onevcat/RandomColorSwift)
 It is a ported version to Android. You can use the library to generate attractive random colors on Android.
 
 See the [demo and site](http://llllll.li/randomColor/) to know why does this exist.
