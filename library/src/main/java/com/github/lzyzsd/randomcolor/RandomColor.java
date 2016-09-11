@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class RandomColor {
     private static final String TAG = "RandomColor";
+    private Random random;
 
     public static enum SaturationType {
         RANDOM, MONOCHROME
@@ -52,6 +53,13 @@ public class RandomColor {
 
     public RandomColor() {
         loadColorBounds();
+        random = new Random();
+    }
+    
+    public RandomColor(long seed){
+        loadColorBounds();
+        random = new Random();
+        random.setSeed(seed);
     }
 
     private int getColor(int hue, int saturation, int brightness) {
@@ -274,7 +282,7 @@ public class RandomColor {
     }
 
     private int randomWithin (Range range) {
-        return (int) Math.floor(range.start + Math.random()*(range.end + 1 - range.start));
+        return (int) Math.floor(range.start + random.nextDouble()*(range.end + 1 - range.start));
     }
 
     public void defineColor(String name, Range hueRange, List<Range> lowerBounds) {
