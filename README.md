@@ -1,4 +1,4 @@
-# Android Random Color
+# Android Random Color - Library to generate attractive color
 
 Inspired by David Merfield's [randomColor.js](https://github.com/davidmerfield/randomColor) and onevcat's [RandomColorSwift](https://github.com/onevcat/RandomColorSwift).
 It is a ported version to Android. You can use the library to generate attractive random colors on Android.
