@@ -3,6 +3,7 @@ package com.github.lzyzsd.randomcolor;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by bruce on 15/2/5.
